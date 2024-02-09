@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100x;
+    background: url(image.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 10px;
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 30px
+    /* width: 1200px;
+    height: 75px;
+    margin: auto; */
+}
+.navbar li a:hover{
+    color: black;
+}
+li,a,button{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    color: #212832;
+}
+.signup-btn{
+    border: 2px solid black;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+.left-conatiner{
+    float: left;
+    width: 50%;
+}
+.left-conatent{
+    margin-left: 130px;
+    margin-top: 90px;
+}
+.left-conatent h4{
+    color: #df6951;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+.left-conatent h1{
+    font-size: 4.623663rem;
+    font-weight: 700;
+    color: #181e4b;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+    margin-top: 0;
+
+}
+.left-conatent p{
+    margin-top: 1;
+    font-weight: 500;
+    margin-bottom: 1.8rem;
+}
+.contact-btn{
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    background-color: #df6951;
+    color: #fff;
+}
+.booking-btn{
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    background-color: #f1a501;
+    color: #fff;
+    margin-left: 20px;
+}
+.category-title{
+    text-align: center;
+    margin-bottom: 4rem;
+    padding-top: 150px;
+}
+.category-title h5{
+    color: #5e6282;
+    font-size: 1.25rem;
+    margin-bottom: 0;
+}
+.category-title h3{
+    margin-top: 0;
+    font-size: 3.24rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #14183e;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 100px;
+    padding-top:0;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+}
+
+.box {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 2.5rem;
+    text-align: center;
+    background-color: #fffefe;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,0.125);
+    border-radius: 1.5rem;
+    margin-right: 35px;
+    /* width: 200px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.box h4 {
+    margin-bottom: 1rem;
+    font-size: 1.26rem;
+    color: #14183e;
+
+    /* margin-top: 0;
+    color: #333; */
+}
+
+.box p {
+    font-weight: 500;
+    color: #666;
+}
+
+.weather-info {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.temperature {
+    font-weight: bold;
+    color: #ff6347; /* Red color for temperature */
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 100px;
+    padding-top:0;
+}
+
+.image-box {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.image-box:hover {
+    transform: translateY(-5px); /* Add a slight lift on hover */
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s;
+}
+
+.image-box:hover img {
+    opacity: 0.8; /* Reduce opacity on hover */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black overlay */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.image-box:hover .overlay {
+    opacity: 1;
+}
+
+.overlay h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.overlay p {
+    margin: 10px 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.booking-steps {
+    display: flex;
+    flex-direction: column;
+}
+
+.step {
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.step h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.step p {
+    color: #666;
+}
+
+.image-container {
+    width: 400px;
+    height: auto;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.footer{
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.footer-col{
+    margin-top: 0;
+}
+.footer-col p{
+    color: #5e6282;
+    font-weight: 500;
+    font-size: 0.88889rem;
+}
+.footer-col h4{
+    color: #080809;
+    font-weight: 700;
+    font-size: 1.265rem;
+    margin-top: 0;
+}
+.footer-col ul{
+    padding-left: 0;
+    list-style: none;
+}
+.footer-col li{
+    margin-bottom: 0.5rem;
+}
+.footer-col li a{
+    color: #5e6282;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+.social-media {
+    display: flex;
+    margin-bottom: 1.8rem;
+
+}
+.social-media-item{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    background: #fffefe;
+    margin-right: 1.8rem;
+    box-shadow: 0 2px 10px 0 rgb(0 0 0/10%);
+    border-radius: 50%;
+    align-items: center;
+    color: #080809;
+    transition: all 0.2s ease-in-out;
+    height: 2.5rem;
+    width: 2.5rem;
+    border: 0;
+    font-size: 0.875rem;
+}
+.footer-app{
+     color: #5e6282;
+     font-weight: 500;
+     margin-bottom: 1rem;
+     font-size: 1.26rem;
+}
+.end-text{
+    text-align: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    color: #5e6282;
+    font-weight: 500;
+    font-size: 0.888rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
